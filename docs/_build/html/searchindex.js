@@ -1,1 +1,0 @@
-Search.setIndex({envversion:46,filenames:["index"],objects:{},objnames:{},objtypes:{},terms:{"\u641c\u5c0b\u9801\u9762":0,"\u6a21\u7d44\u7d22\u5f15":0,"\u7d22\u5f15":0,content:0},titles:["Welcome to Senia-DevDoc&#8217;s documentation!"],titleterms:{devdoc:0,document:0,indic:0,senia:0,tabl:0,welcom:0}})
