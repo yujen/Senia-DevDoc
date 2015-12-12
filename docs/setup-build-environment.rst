@@ -14,7 +14,7 @@
 Android版環境設定
 ----------------------------------------
 
-1.下載並安裝
+1.下載並安裝 `Java Development Kit(JDK) <http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html>`_
    .. image:: /_static/image/setup-build-environment/1_install_jdk.png
 
 
