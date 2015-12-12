@@ -1,14 +1,18 @@
 設定Unity開發環境
 ========================================
 
-Android版環境設定
-----------------------------------------
-
 本文件說明如何設定Unity輸出Android版本遊戲的開發環境，以下列出目前使用的平台:
    
    * Windows 7 64 bit
    * Unity 5.3.0f4 Personal
 
+   Unity在5.3版本之後的安裝時要選擇不同的元件，若要建置Android或iOS版，需要把Android Build Support和iOS Build Support打勾
+   
+   .. image:: /_static/image/setup-build-environment/0_install_unity.png
+
+
+Android版環境設定
+----------------------------------------
 
 1.下載並安裝
    .. image:: /_static/image/setup-build-environment/1_install_jdk.png
@@ -32,7 +36,7 @@ Android版環境設定
    預設值分別是
    
    * ``C:\Users\[YOUR_USER_NAME]\AppData\Local\Android\android-sdk`` (Android SDK預設目錄)
-   * ``C:\Program Files (x86)\Android\android-sdk`` (Android SDK全域目錄)
+    或是 ``C:\Program Files (x86)\Android\android-sdk`` (Android SDK全域目錄)
    * ``C:\Program Files\Java\jdk1.8.0_05`` (JDK版本可能不同)
    
    .. image:: /_static/image/setup-build-environment/3_unity_preferences.png
@@ -47,7 +51,7 @@ Android版環境設定
    
 5.設定PlayerSettings
 
-   .. warning:: 因為還沒有正式發佈，所以這些值可以先用暫代值
+   .. note:: 因為還沒有正式發佈，所以這些值可以先用暫代值
 
    * Company Name代表公司或開發單位名稱
    * Product Name表示產品名稱，Android選單顯示在icon下的文字
