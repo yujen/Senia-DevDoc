@@ -10,6 +10,8 @@
    :maxdepth: 2
 
    setup-build-environment
+   senia-tools
+   dialog-syntax
    
 
 Indices and tables
