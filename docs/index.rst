@@ -11,6 +11,7 @@
 
    setup-build-environment
    senia-tools
+   howto-import-texture
    dialog-syntax
    
 
