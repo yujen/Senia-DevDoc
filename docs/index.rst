@@ -6,6 +6,9 @@
 賽妮亞開發文件
 ========================================
 
+.. image:: /_static/image/title/title_banner.png
+   :target: https://www.facebook.com/seniafans/
+  
 .. toctree::
    :maxdepth: 2
 
