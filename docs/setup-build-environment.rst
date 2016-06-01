@@ -66,15 +66,15 @@ Android版環境設定
       
 7. 設定IL2CPP輸出
       
-      .. image:: /_static/image/setup-build-environment/7_setup_ndk_preferences.png
-      
-      * Edit->Preferences->Exteral Tools 選擇NDK欄位的Download下載並安裝需要的檔案
-      * 安裝完後把路徑設定到NDK的目錄，例如 ``C:/android-ndk-r10e``
-      
-      .. image:: /_static/image/setup-build-environment/8_setup_ndk_playersettings.png
-      
-      * Edit->Project Settings->Player 將Scripting Backend設定成IL2CPP
-      * Strip Engine Code 取消勾選
+  .. image:: /_static/image/setup-build-environment/7_setup_ndk_preferences.png
+  
+  * Edit->Preferences->Exteral Tools 選擇NDK欄位的Download下載並安裝需要的檔案
+  * 安裝完後把路徑設定到NDK的目錄，例如 ``C:/android-ndk-r10e``
+
+  .. image:: /_static/image/setup-build-environment/8_setup_ndk_playersettings.png
+  
+  * Edit->Project Settings->Player 將Scripting Backend設定成IL2CPP
+  * Strip Engine Code 取消勾選
 
 8.
       .. note:: 正式發佈設定(未完)
