@@ -21,6 +21,11 @@
 
   .. image:: /_static/image/howto-set-battleeffect/3_step.png
  
+  * 在BattleEffect腳本中增加ListParticleSysytemData的Size加1
+  * 新的Element將Ps欄位套用mobdie
+
+  .. image:: /_static/image/howto-set-battleeffect/4_step.png
+ 
   * 將做好的特效disable
   * Save Project, Save Scene並Apply prefab再存檔
 
