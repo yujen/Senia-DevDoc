@@ -15,6 +15,7 @@
    setup-build-environment
    senia-tools
    howto-import-texture
+   howto-set-battleeffect
    dialog-syntax
    
 

@@ -3,7 +3,8 @@ Unity輸入圖檔的設定
 
 
 Unity輸入圖檔的設定請修改以下設定
-   .. image:: /_static/image/howto-import-texture/0_step.png
+
+  .. image:: /_static/image/howto-import-texture/0_step.png
 
   * Texture Type : 使用Sprite(2D and UI)
   * Sprite Mode : Single
@@ -16,8 +17,9 @@ Unity輸入圖檔的設定請修改以下設定
   * Format : 選Turecolor，讓SeniaSpritePackPolicy去做最後的壓縮設定
 
 Sprite Packer工具
-   .. image:: /_static/image/howto-import-texture/1_step.png
-   
+
+  .. image:: /_static/image/howto-import-texture/1_step.png
+
   * 選擇“Menu -> Window -> Sprite Packer”，開啟Sprite Packer可以用來檢查有哪些圖檔會被加入atlas
   * 若一開始畫面是空的，先確認圖檔有先設定Packing Tag，然後點選Pack產生atlas
   * View atlas : Unity會根據Packing Tag產生下拉式選單，選擇相對應的名稱來切換檢視atlas
