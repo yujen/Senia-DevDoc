@@ -17,6 +17,10 @@
   
   .. image:: /_static/image/howto-set-battleeffect/2_step.png
  
+  * 測試特效時可以在編輯器Scene中使用Simulate來預覽特效，若有關閉Looping預覽會自動停止
+
+  .. image:: /_static/image/howto-set-battleeffect/3_step.png
+ 
   * 將做好的特效disable
   * Save Project, Save Scene並Apply prefab再存檔
 
