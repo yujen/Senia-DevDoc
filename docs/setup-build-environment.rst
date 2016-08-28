@@ -1,10 +1,11 @@
 設定Unity開發環境
 ========================================
 
-本文件說明如何設定Unity輸出Android版本遊戲的開發環境，以下列出目前使用的平台:
+本文件說明如何設定Unity輸出手機版本遊戲的開發環境，以下列出目前使用的平台:
    
-   * Windows 7 64 bit
-   * Unity 5.3.0f4 Personal
+   * Windows 7 64 bit (只能輸出Android)
+   * OS X (Android和iOS)
+   * Unity 5.3.0f4 Personal (實際開發時用最新的5.3.x)
 
    Unity在5.3版本之後的安裝時要選擇不同的元件，若要建置Android或iOS版，需要把Android Build Support和iOS Build Support打勾
    
@@ -80,7 +81,25 @@ Android版環境設定
       .. note:: 正式發佈設定(未完)
 
 
+Android開發版環境設定
+----------------------------------------
+
+  1. Build Settings開啟Development Build
+        .. image:: /_static/image/setup-build-environment/android_devbuild_1.png
+  
+  2. 可以直接Build And Run或是build apk手動安裝到手機，執行遊戲時須將USB線連接至PC，並且Android系統的設定要開啟開發者模式
+
+
+  3. Unity選單 > Window > Profiler 開啟效能檢視器，Active Profiler選擇AndroidPlayer TCP方式連接
+        .. image:: /_static/image/setup-build-environment/android_devbuild_profiler_1.png
+        
+  4. CPU Usage的Time ms表示cpu每個frame的執行時間，若要讓FPS維持60，則Time ms不可大於16ms
+
+  5. Memory欄位可以檢查目前有哪些資源占用多少RAM，選擇Detail然後按下Take Sample，遊戲中使用的材質會分類在Assets/Texture2D中，展開後可以找出那些材質和使用多少Memory，Referenced By可以找出有哪些sprite使用到這個材質
+        .. image:: /_static/image/setup-build-environment/android_devbuild_profiler_2.png
+  
+
 iOS版環境設定
 ----------------------------------------
 
-
+WIP
