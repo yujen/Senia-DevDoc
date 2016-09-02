@@ -216,14 +216,14 @@ LibreOffice開啟csv的設定
    * 無參數，全部value填0
 
 
-淡入淡出黑幕 ``FIELD_FADE_IN_OUT_BLACK``
+淡入淡出黑幕 ``FADE_IN_OUT_BLACK``
 ------------------------------------------------------------
 
    * value0 淡入true, 淡出false
    * value1 淡入淡出秒數
 
 
-淡入淡出白幕 ``FIELD_FADE_IN_OUT_WHITE``
+淡入淡出白幕 ``FADE_IN_OUT_WHITE``
 ------------------------------------------------------------
 
    * value0 淡入true, 淡出false
