@@ -76,11 +76,16 @@ LibreOffice開啟csv的設定
      值的內容是淡入時間，例如0.5秒
 
 
-改變背景圖 ``LOAD_BG``
+載入背景圖 ``LOAD_BG``
 ----------------------------------------
 
    * value0 背景圖名稱，例如background_02
    * value2 淡入時間，例如0.5秒
+
+淡出背景圖 ``FADEOUT_BG``
+----------------------------------------
+
+   * value0 淡入時間，例如0.5秒
 
 
 設定角色動畫 ``SET_ANIM``
@@ -152,7 +157,6 @@ LibreOffice開啟csv的設定
    * value0 放在Resources/AssetBundles/Dialog目錄下的sprite名稱
    * value1 座標位置，值的內容是x,y
    * value2 淡入時間
-   * value3 sprite前後順序，例如70
 
 
 移除sprite ``UNLOAD_SPRITE``
@@ -241,4 +245,10 @@ LibreOffice開啟csv的設定
 
    * value0 淡入true, 淡出false
    * value1 淡入淡出秒數
+
+
+淡出全部對話 ``FADEOUT_DIALOG``
+------------------------------------------------------------
+
+   * value0 淡出秒數
 
