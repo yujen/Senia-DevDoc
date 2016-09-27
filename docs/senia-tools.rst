@@ -72,6 +72,24 @@ SeniaTableUnitTest Editor可用來測試表格機率是否正確
    按下Start Test後會在下方顯示測試後的資訊，Probability表示怪物掉落物品機率
 
 
-
 表格轉換工具
 ----------------------------------------
+
+"Menu > Senia > Convert CSV to JSON"
+
+  * 可以把Table/目錄下的csv檔轉成遊戲用的json格式
+  * 可以在csv檔開啟編輯中直接進行轉換
+  * 要build遊戲前要先執行這個工具
+
+
+怪物prefab複製工具
+----------------------------------------
+
+"Menu > Senia > SeniaMobPrefab Editor"
+  
+  .. image:: /_static/image/senia-tools/3_SeniaMobPrefab_Editor.png
+
+  * 將想要複製的怪物prefab拖曳到"來源怪物prefab"
+  * 輸入新怪物ID，小心不要有重複
+  * Create Prefab，會複製整個怪物的script/動畫/圖檔資源，並放在相對應的新怪物ID目錄下
+
