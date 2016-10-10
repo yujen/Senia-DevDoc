@@ -12,7 +12,7 @@ Unity輸入圖檔的設定請修改以下設定
   * Pixels Per Unit : 選1表示一個pixel當單位
   * Pivot : 選Center當中心
   * Generate Mip Maps : 不要勾選這個選項，這個是給3D模型做LOD用的
-  * Filter Mode : 選Trilinear減少在縮放時產生鋸齒
+  * Filter Mode : 選Bilinear減少在縮放時產生鋸齒
   * Max Size : 行動裝置小於2048比較好
   * Format : 選Turecolor，讓SeniaSpritePackPolicy去做最後的壓縮設定
 
