@@ -91,5 +91,6 @@ SeniaTableUnitTest Editor可用來測試表格機率是否正確
 
   * 將想要複製的怪物prefab拖曳到"來源怪物prefab"
   * 輸入新怪物ID，小心不要有重複
-  * Create Prefab，會複製整個怪物的script/動畫/圖檔資源，並放在相對應的新怪物ID目錄下
+  * 將需要共用的動畫打勾，會共用來源怪物的動畫
+  * 複製Prefab按鈕，會複製整個怪物的script/動畫/圖檔資源，並放在相對應的新怪物ID目錄下
 
