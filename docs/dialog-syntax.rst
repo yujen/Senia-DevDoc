@@ -1,7 +1,10 @@
 Dialog Syntax
 ========================================
 
- dialog.csv的填法
+.. error:: 新的文件搬到這邊更新 https://hackmd.io/s/HkI1HAisl
+
+
+dialog.csv的填法
 
    category 表示同一連串對話，對話結束時會自動將整個對話UI刪除
    type 表示這一列的功能
